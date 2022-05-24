@@ -117,7 +117,7 @@ section.transvidas > .center > .box h2 {
 
 section.mockup {
   padding: 40px 0;
-  background-image: url('/images/Design\ sem\ nome.png');
+  background-image: url('../images/fundo4.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -236,7 +236,7 @@ section.mockup .tema:hover{
 section.equipe {
   margin-bottom: 30px;
   text-align: center;
-  background-image: url('/images/fundo2.jpg');
+  background-image: url('../images/fundo2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
