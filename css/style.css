@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.center {
+  display: flex;
+  max-width: 1100px;
+  padding: 0 2%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  
+}
+
+section.main {
+  background-color: #f3edf29d;
+  padding: 20px 0 20px 0;
+  /*
+  background-image: url('/images/Design\ sem\ nome.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  */
+}
+
+section.main > .center > img{
+  opacity: 0.1;
+  
+}
+.menu {
+  display: flex;
+  
+}
+
+.menu-logo{
+  width: 50%;
+}
+
+.menu-logo img{
+  width: 50%;
+}
+
+.menu-itens {
+  width: 100%;
+  text-align: right;
+  
+}
+
+.menu-itens img{
+  display: block;
+  width: 50%;
+  text-align: right;
+  margin-left: 50%;
+  
+}
+
+.menu-itens a:nth-of-type(1), a:nth-of-type(2) {
+  font-weight: bold;
+  color: rgb(124, 124, 124);
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 10px;
+  
+}
+
+.menu-itens a:nth-of-type(3) {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.menu-itens h1 {
+  color: rgb(73, 25, 75);
+  display: block;
+  font-weight: 100;
+  font-size: 40px;
+  
+}
+
+.menu-itens p {
+  color: rgb(124, 124, 124);
+  display: block;
+  font-weight: 100;
+  
+}
+
+.menu-itens a.contact-btn {
+  background-color: rgb(124, 124, 124);
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.menu-itens a:hover {
+  border-bottom: 2px solid #fcfcfc;
+}
+
+section.transvidas > .center  {
+  display: block;
+  font-size: 54px;
+  width: 100%;
+  align-items: right;
+  
+}
+
+section.transvidas > .center > .box h2 {
+  font-size: 54px;
+  width: 100%;
+  text-align: right;
+  color: rgb(124, 124, 124);
+  font-weight: 100;
+  font-family: 'Ms Madi', cursive;
+}
+
+section.mockup {
+  padding: 40px 0;
+  background-image: url('/images/Design\ sem\ nome.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+section.mockup > .center > p {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+
+section.mockup  .box1{
+  width: 100%;
+  
+}
+
+section.mockup > .center > .box1 > .container {
+  width: 100%;
+  display: flex;
+} 
+
+section.mockup > .center > .box1 > .container .b1{
+ width: 100%;
+}
+
+section.mockup > .center > .box1 > .container .b1 img{
+  width: 100%;
+  padding: 20px;
+ }
+
+section.mockup > .center > .box1 > .container .b2{
+  width: 100%;
+  
+  
+}
+
+section.mockup > .center > .box1 > .container > .b1 h1 {
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  color: rgb(73, 25, 75);
+  margin-bottom: 20px;
+}
+
+section.mockup > .center > .box1 > .container > .b2 h1 {
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  color: rgb(73, 25, 75);
+  margin-bottom: 20px;
+  font: 32px Raleway;
+}
+
+
+section.mockup > .center > .box1 p {
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+  text-align: justify;
+  color: rgb(82, 30, 69);
+  padding: 20px;
+  
+}
+
+section.mockup > .center > .box1 > .container > .b2 > .tema > h2 {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #7c53779d;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font: 24px Raleway;
+}
+
+section.mockup .tema:hover{
+  background-color: #7e92ac;
+}
+
+.diferenciais {
+  display: flex;
+  margin-top: 50px;
+}
+.box-diferenciais img {
+  width: 80px;
+  display: block;
+  position: left;
+}
+.box-diferenciais {
+  
+  box-sizing: border-box;
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  box-shadow: 0px 20px 40px #0505051c;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255,255,255,0.5);
+  
+}
+
+.box-diferenciais h3 {
+  font-size: 20px;
+  color: black;
+  margin: 20px 0;
+}
+
+.box-diferenciais p {
+  font-size: 14px;
+  color: #7e92ac;
+  margin: 20px 0;
+}
+
+section.equipe {
+  margin-bottom: 30px;
+  text-align: center;
+  background-image: url('/images/fundo2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.equipe > .center > h1{
+  display: block;
+  font-size: 40px;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+  
+}
+section.equipe .container {
+  display: flex;
+  flex-wrap:wrap;
+  width: 100%; 
+  
+}
+
+section.equipe .tema{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+} 
+
+section.equipe .tema:hover{
+  background-color: white;
+  color: #a8a8a8;
+}
+
+section.equipe .dep-individual {
+  
+  width: 49%;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgb(99, 97, 97);
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+section.equipe .dep-individual:hover {
+  background-color: #a8a8a8;
+  color: white;
+}
+
+section.equipe .dep-individual img.pessoa {
+  width: 100px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 100px;
+  
+}
+
+
+footer {
+  background-color: #9c9c9c;
+  color: white;
+  padding: 10px 0;
+}
+
+.texto-menu {
+  width: 50%;
+  padding: 10px 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .menu {
+    display: flex;
+    
+  }
+  .menu-logo{
+    width: 100%;
+  }
+  
+  .menu-logo img{
+    width: 100%;
+  }
+    
+  .menu-itens {
+    width: 100%;
+    text-align: right;
+    
+  }
+  
+  .menu-itens a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 10px;
+    
+  }
+  .menu-itens h1 {
+    color: rgb(245, 165, 221);
+    display: block;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0 10px;
+  }
+  
+  .menu-itens p {
+    color: rgb(245, 165, 221);
+    display: block;
+    font-weight: 100;
+    margin: 0 10px;
+    
+    
+  }
+  
+  .menu-itens a.contact-btn {
+    background-color: rgb(124, 124, 124);
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+
+  .diferenciais {
+    flex-wrap: wrap;
+  }
+
+  .box-diferenciais {
+    width: 100%;
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 20px 40px #2426721c;
+    border-radius: 20px;
+  }
+
+  section.marcas > .center {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.marcas img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  section.mockup {
+    padding: 40px 0;
+    vertical-align: bottom;
+  
+  }
+  
+  section.mockup  .box1{
+    width: 100%;
+    
+  }
+  
+  section.mockup > .center > .box2 img{
+    width: 100%;
+  }
+  
+  section.mockup > .center > .box1 h2 {
+    
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    color: rgb(124, 124, 124);
+    
+    
+  }
+  section.mockup > .center > .box1 p {
+    
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 100%;
+    text-align: justify;
+    color: rgb(124, 124, 124);
+    font-weight: 600;
+    padding: 20px;  
+  }
+
+  section.mockup  .tema{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #0505051c;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  } 
+
+  section.banner > .center {
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    color: white;
+    margin: 10px 10px;
+    padding: 89px auto;
+  }
+
+  section.banner > .center h2 {
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 20px;
+    font: normal normal normal 34px Raleway;
+  }
+
+  section.banner > .center p {
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 20px;
+    font: normal normal normal 14px Raleway;
+  }
+
+  section.banner > .center a {
+    background-color: #ffdd33;
+    width: 200px;
+    height: 48px;
+    padding: 16px 0;
+    border-radius: 10px;
+    text-align: center;
+    font: normal normal bold 15px Raleway;
+    color: #0f3fd3;
+    text-transform: uppercase;
+  }
+
+  .b-box1 {
+    width: 100%;
+  }
+
+  .b-box2 {
+    width: 100%;
+  }
+  section.equipe .container {
+    flex-wrap: wrap;
+  }
+  section.equipe .dep-individual {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 50px black;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 10px;
+  }
+
+  section.equipe  .tema{
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+  }
+
+  footer .menu-itens {
+    width: 100%;
+    text-align: center;
+  }
+
+  .texto-menu {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+}
